@@ -71,3 +71,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 必要なアセットやメタファイルを含めるように調整
+!Assets/
+!Assets/**/*.meta
+!Assets/**/*.unity
